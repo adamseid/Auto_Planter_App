@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/white_background">
+
+    <RelativeLayout
+        android:id="@+id/sign_up_last_name_field_layout"
+        android:layout_width="159.83dp"
+        android:layout_height="62.8dp"
+        android:layout_marginTop="317.53dp"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_email_field_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/sign_up_last_name_field"
+            android:layout_width="342.5dp"
+            android:layout_height="45.7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.75"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/last_name_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22.9dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/white_background"
+            android:fontFamily="@font/canadara"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:text="Last"
+            android:textColor="#26A800"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22.9dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sign_up_first_name_field_layout"
+        android:layout_width="159.83dp"
+        android:layout_height="62.8dp"
+        android:layout_marginTop="317.53dp"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_email_field_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/sign_up_first_name_field"
+            android:layout_width="342.5dp"
+            android:layout_height="45.7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.75"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/first_name_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="22.9dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/white_background"
+            android:fontFamily="@font/canadara"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:text="First"
+            android:textColor="#26A800"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/log_in_screen_button"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="615.64dp"
+        android:alpha="0.75"
+        android:background="@drawable/button"
+        android:fontFamily="@font/candarab"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:textSize="20.6dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/sign_up_email_field_layout"
+        android:layout_width="342.5dp"
+        android:layout_height="62.8dp"
+        android:layout_marginTop="403.2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/sign_up_email_field"
+            android:layout_width="342.5dp"
+            android:layout_height="45.7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.75"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/email_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="22.9dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/white_background"
+            android:fontFamily="@font/canadara"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:text="Email"
+            android:textColor="#26A800"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/log_in_password_field_layout"
+        android:layout_width="342.5dp"
+        android:layout_height="62.8dp"
+        android:layout_marginTop="488.85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/sign_up_password_field"
+            android:layout_width="342.5dp"
+            android:layout_height="45.7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.75"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/password_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="22.9dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/white_background"
+            android:fontFamily="@font/canadara"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:text="Password"
+            android:textColor="#26A800"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="77.67dp"
+        android:layout_marginTop="221.58dp"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_email_field_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:fontFamily="@font/candarab"
+            android:text="Hello!"
+            android:textColor="@android:color/black"
+            android:textSize="34.27dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.75"
+            android:fontFamily="@font/canadara"
+            android:text="Sign up to link your devices"
+            android:textColor="@android:color/black"
+            android:textSize="22.83dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="399.58dp"
+        android:layout_height="399.58dp"
+        android:layout_marginStart="192.9dp"
+        android:layout_marginBottom="531dp"
+        android:rotation="30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/log_in_sign_up_background"
+        android:layout_marginLeft="192.9dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
